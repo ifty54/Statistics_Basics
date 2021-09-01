@@ -1,0 +1,473 @@
+.fas fa-futbol{
+    font-size: 900px;
+    margin-left: 300px;
+}
+
+.sqz{
+    width: 480px;
+    height: 30px;
+    background: yellow;
+    transition: width 2s, height 2s, transform 2s;
+    transition-timing-function: ease-in-out;
+}
+
+.sqz:hover{
+    width: 520px;
+    height: 60px;
+    transform: rotate(360deg);
+    
+}
+.homie{
+    color: darkslateblue;
+    text-align: center;
+    text-decoration: overline;
+    font-family: 'Rock Salt', cursive;
+    font-size: 300%;
+    
+}
+
+.al{
+    width: 100%;
+    height: 200px;
+    background: #000 url('ron.jpg') no-repeat center /
+        400px auto;
+
+}
+
+.ifty{
+    border: 5px skyblue solid;
+    border-radius: 5px;
+    outline: 5px solid blue;
+    outline-offset: 5px;
+    font-family: 'Alfa Slab One', cursive;
+    
+}
+
+.mgn{
+    width: 80%;
+    height: 100px;
+    background: radial-gradient(red 90%,blue 10%);
+    margin: 20px;
+    padding: 50px;
+    letter-spacing: 1px;
+    line-height: 1;
+    font-size: 30px;
+    word-spacing: 1px;
+    text-shadow: 1px 1px blue;
+}
+
+.papon{
+      text-align: justify;
+      text-decoration: none;
+      text-indent: 50px;
+    text-transform: uppercase;
+}
+
+.papon::first-letter{
+    color: red;
+    font-size: 60px;
+}
+
+.lineup{
+    font-family: Agency FB;
+    font-size: 360%;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-shadow: 1px 2px 9px yellow, 0 5px 5px red;
+    
+}
+
+
+a:link{
+    text-align: center;
+    text-decoration: none;
+    background: red;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+a:hover{
+    color: gainsboro;
+    background: purple;
+}
+
+a:active{
+    color: blueviolet;
+    background: black;
+}
+a{
+    color: lavenderblush;
+    padding: 12px;
+}
+
+ul{
+    list-style: url('player.png');
+    font-family: 'Alfa Slab One', cursive;
+    
+}
+
+table, td, th{
+    border: 2px solid blue;
+    text-align: right;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 9px;
+}
+
+.vv{
+    display: inline-block;
+}
+
+span{
+    text-align: center;
+}
+
+.maxwidth{
+    border: 5px solid red;
+    padding: 20px;
+    margin: auto;
+    max-width: 400px;
+    font-family: 'Alfa Slab One', cursive;
+    
+}
+
+.green{
+    width: 800px;
+    height: 400px;
+    background: green;
+    position: relative;
+    margin: auto;
+}
+
+.red{
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.ss{
+    border: 5px solid red;
+    padding: 5px;
+    margin-top: 10px;
+    background: red;
+    position: sticky;
+    top: 0;
+    
+}
+
+p{
+    padding-bottom: 10px;
+    font-family: 'Alfa Slab One', cursive;
+    
+}
+.tkt{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    border: 2px solid red;
+    width: 260px;
+    
+    
+}
+
+.scroll{
+    width: 300px;
+    height: 200px;
+    border: 5px solid red;
+    overflow: scroll;
+    text-align: center;
+    margin-left: 460px;
+}
+
+.w1{
+    width: 400px;
+    float: left;
+    position: fixed;
+    left: 0;
+    center: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+p{
+    clear: left;
+}
+
+.hmm{
+    width: 30%;
+    height: 200px;
+    background: yellow;
+    float: left;
+    
+}
+
+.red1{
+    background: red;
+    border: 4px solid black;
+    margin: auto;
+    position: relative;
+}
+    
+.adidas{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    }
+    
+.chev{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    }
+
+.black{
+    background: black;
+    border: 4px solid red;
+    margin: auto;
+    position: relative;
+
+}
+
+.kohler{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    }
+       
+.red2{
+    background: red;
+    border: 4px solid black;
+    margin: auto;
+    position: relative;
+}
+
+.kit{
+    clear: left;
+    color: yellow;
+    font-size: 50px;
+    padding: 60px 70px 4px 150px;
+    border: 5px solid red;
+    font-style: Agency-FB;
+    font-family: 'Alfa Slab One', cursive;
+    background-color: navy;
+    box-shadow: 4px 9px 5px yellow;
+}
+
+.sam{
+    background: red;
+    border: 2px solid red;
+    display: inline;
+}
+
+.harry{
+    background: red;
+    border: 1px solid red;
+    display: inline-block;
+}
+
+.sgmnt{
+    width: 100%;
+    height: 40px;
+    background: yellow;
+}
+
+ul.sgmnt{
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+    
+ul li{
+    display: inline-block;
+    padding: 1px 2px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+
+.new{
+    text-align: left;
+    float: left;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.sancho{
+    width: 711px;
+    height: 400px;
+    background: url('sancho.jpg') center / cover;
+    overflow: hidden;
+    box-shadow: 3px 4px 9px red;
+    margin-left: 220px;
+    
+}
+
+.sancho:hover{
+        box-shadow: 4px -6px 100px black;
+}
+
+.box p{
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    opacity: 0.6;
+    margin-top: 299px;
+    
+}
+
+.ply a{
+    display: block;
+    background: black;
+    color: seashell;
+}
+
+.ply{
+    background: purple;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+    display: none;
+    position: absolute;
+    min-width: 150px;
+}
+
+.dropdown:hover .ply{
+    display: block;
+}
+
+
+.ico ul{
+    margin: 0;
+    padding: 0;
+}
+
+.ico ul li{
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.icons ul li:last-child{
+    margin-right: 0;
+}
+.ico ul li a{
+    background-image: url('icons.png');
+    background-repeat: no-repeat;
+    background-position: 0 -86px;
+    width: 19px;
+    height: 17px;
+    display: inline-block;
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+
+.ico ul li:hover:nth-child(1) a{
+    background-position: -0 -43px;
+    transition: 1s;
+}
+
+.ico ul li:nth-child(2) a{
+    background-position: -43px -86px;
+}
+
+.ico ul li:hover:nth-child(2) a{
+    background-position: -42px -42px;
+    transition: 1s;
+}
+    
+.ico ul li:nth-child(3) a{
+    background-position: -86px -86px;
+}
+
+.ico ul li:hover:nth-child(3) a{
+    background-position: -84px -44px;
+    transition: 1s;
+}
+
+.bcc{
+    width: 600px;
+    height: 90px;
+    background: blue;
+    animation-name: aai;
+    animation-duration: 4s;
+    animation-delay: 0.3s;
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    margin:auto;
+    border-radius: 0%;
+    position: relative;
+    transition: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    
+    
+}
+
+@keyframes aai {
+    
+    0% {
+        background-color: blue;
+        left: -100px;
+        top: 10px;
+    }
+    25% {background-color: yellow;
+        left: 0;
+        top: 0;
+    }
+    
+    50% {
+        background-color: black;
+        left: 100px;
+        top: -80px;
+    }
+    75% {background-color: red;
+        left: 200px;
+        top: 0;
+    }
+    
+.grid-container{
+        display: grid;
+        grid-template-columns: auto;
+        background: red;
+        padding: 10px;
+    }
+
+.grid-item{
+        border: 10px solid blue;
+        padding: 100px;
+        font-size: 50p0x;
+        color: darkgray;
+        text-align: center;
+    }
+
